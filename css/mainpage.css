@@ -63,7 +63,7 @@
     color: white;
     padding: 12px 20px;
     border-radius: 8px;
-    border-color: #F45801;
+    border-style: none;
   }
 
   .resume:hover{
@@ -139,7 +139,7 @@
     width: 268px;
     height: 75px;
     border-radius: 8px;
-
+    border-style: none;
   }
   
   .ContactMe:hover{
