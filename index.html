@@ -13,23 +13,30 @@
 </head>
 <body>
 
-    <nav>
+    <nav class="navbar-fixed-top">
+
         <input type="checkbox" id="check">
         <label for="check" class="checkbtn">
             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
               </svg>
         </label>
-        <label class="logo">SJ</label>
+
+       
+
         <ul>
-          <li><a class="active" href="#">About</a></li>
-          <li><a href="#">Experience</a></li>
-          <li><a href="#">Work</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><button class="resume">Resume</button></li>
+          <a class="logo" href="#home">SJ</a>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><button class="resume">RESUME</button></li>
         </ul>
+
       </nav> 
       
+    <section class="home" id="home" >
+    
       <p class="title">I'm</p>
       <p class="name">See Jia Jia.</p>
       <p class="state">Fresh Graduated Student.</p>
@@ -37,5 +44,174 @@
 
       <button class="ContactMe">Contact Me!</button>
     
+    </section>
+
+    <section class="about" id="about">
+    
+      <p class="title"><span>About</span> Me </p>
+      <p class="textAbout">Hello, My name is See Jia Jia, a person who likes to <br> build something simple and beautiful. My interest for <br> web when I follow a developer who develops a <br> website, it makes me wants to start design, research <br> and develop about the website.</p>
+      <p class="textRecent">I recently still self-learning to improve my skills.</p>   
+      
+      <p class="skills">SKILLS:</p>
+      <p class="mySkills">HTML,CSS,JavaScript,PHP</p>
+    
+    </section>
+
+
+    <section class="experience" id="experience">
+
+      <p class="title"><span>My</span> Experience</p>
+      <p class="workPlace">Internship-UUM(2021-2022)</p>
+      <p class="workDescription">Design the system by using Figma design tool. <br>
+        Work with different type of languages such as JavaScript and PHP.</p>
+
+    </section>
+
+    <section class="work" id="work">
+      <p class="titleWork"><span>My</span> Work</p>
+
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img class="imageProject" src="images/sample1.png" alt="projectImage1">
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <p class="project">First Project</h3>
+            <p class="projectTitle">Project Title</p>
+            <p class="textProject">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <button class="learnMore">Learn More</button>
+          </div>
+        </div>
+        
+      </div>
+
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <p class="project">Second Project</h3>
+              <p class="projectTitle">Project Title</p>
+              <p class="textProject">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <button class="learnMore">Learn More</button>
+            </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img class="imageProject" src="images/sample1.png" alt="projectImage1">
+            
+            
+          </div>
+        </div>
+        
+      </div>
+
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img class="imageProject" src="images/sample1.png" alt="projectImage1">
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <p class="project">Third Project</h3>
+            <p class="projectTitle">Project Title</p>
+            <p class="textProject">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <button class="learnMore">Learn More</button>
+          </div>
+        </div>
+        
+      </div>
+
+
+    </section>
+
+    
+
+    <section class="otherwork" id="otherwork">
+
+      <p class="titleOtherWork"><span>My Other</span> Work</p>
+      
+      <div class="row2">
+        <div class="column2">
+          <div class="card2">
+          <a class="smallProjectTitle" href="">Project Title</a>
+          <p class="smallProjectText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+     </div>
+
+      <div class="column2">
+        <div class="card2">
+          <a class="smallProjectTitle" href="">Project Title</a>
+          <p class="smallProjectText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        
+        </div>
+      </div>
+
+      <div class="column2">
+        <div class="card2">
+          <a class="smallProjectTitle" href="">Project Title</a>
+          <p class="smallProjectText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        
+        </div>
+      </div>
+
+      <div id="hidden" style="display: none;">
+
+       <div class="column2">
+          <div class="card2">
+            <a class="smallProjectTitle" href="">Project Title</a>
+            <p class="smallProjectText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+         
+        </div>
+     </div>
+
+     <div class="column2">
+      <div class="card2">
+        <a class="smallProjectTitle" href="">Project Title</a>
+        <p class="smallProjectText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+     
+    </div>
+    </div>
+
+    <div class="column2">
+      <div class="card2">
+        <a class="smallProjectTitle" href="">Project Title</a>
+        <p class="smallProjectText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+     
+    </div>
+    </div>
+
+
+  </div>
+
+    <input type="button" onclick="myFunction2()" id="showMore" class="showMore" value="Show More">
+  
+  </div>
+
+ 
+
+    </section>
+
+    <section class="contact" id="contact">
+
+      <p class="contactme"><span>Contact</span> Me</p>
+      <p class="word"><span class="email">Email:</span> seejiajia1010@gmail.com</p>
+      <p class="word"><span class="location">Location:</span> Kota Tinggi, Johor, Malaysia</p>
+      <p class="word"><span class="phone">Phone Number:</span> +60 167412512</p>
+
+    </section>
+
+    <section class="footer" id="footer">
+      <p class="copyright">Designed and developed by <span>See Jia Jia</span></p>
+    </section>
+    
+    
+<!-- custom js file link -->
+<script src="js/mainpage.js"></script>
+
 </body>
 </html>
